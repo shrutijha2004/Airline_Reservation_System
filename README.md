@@ -52,11 +52,11 @@ Airline-reservation-system/
 
 2. **Import the database**
 
- -Open phpMyAdmin
+ -Open phpMyAdmin.
 
- -Create a new database named airline_db
+ -Create a new database named airline_db.
 
- -Import the file airline_db.sql
+ -Import the file airline_db.sql.
 
 3. **Configure database**
 
@@ -73,11 +73,11 @@ Airline-reservation-system/
 
 # 😅 What I Learned (the hard way)
 
- -> SQL constraints are very real and will humble you
+ -> SQL constraints are very real and will humble you.
 
- -> Preventing duplicate bookings needs actual logic, not vibes
+ -> Preventing duplicate bookings needs actual logic, not vibes.
 
- -> "Undefined index: seat_number" at midnight = character development
+ -> "Undefined index: seat_number" at midnight = character development.
 
  -> Booking once is hard, preventing twice is harder 😂
 
