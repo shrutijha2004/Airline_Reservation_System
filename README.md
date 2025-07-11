@@ -28,12 +28,19 @@ Made with a lot of debugging, midnight frustration, and eventual excitement! �
 ## 📂 Folder Structure
 
 Airline-reservation-system/
+
 ├── index.php      (Flight listing & summary)
+
 ├── book.php       (Flight booking logic)
+
 ├── cancel.php     (Cancel bookings)
+
 ├── db.php         (DB connection (update credentials!))
+
 ├── style.css      (Styling)
+
 ├── airline_db.sql (Database export file)
+
 ├── README.md
 
 ---
@@ -45,34 +52,34 @@ Airline-reservation-system/
 
 2. **Import the database**
 
--Open phpMyAdmin
+ -Open phpMyAdmin
 
--Create a new database named airline_db
+ -Create a new database named airline_db
 
--Import the file airline_db.sql
+ -Import the file airline_db.sql
 
 3. **Configure database**
 
--In db.php, update your database credentials if needed.
+ -In db.php, update your database credentials if needed.
 
 4. **Run Locally**
 
--Place the folder inside your MAMP/XAMPP htdocs directory.
+ -Place the folder inside your MAMP/XAMPP htdocs directory.
 
--Start Apache & MySQL.
+ -Start Apache & MySQL.
 
--Open your browser and visit:
- http://localhost/(your-folder-name)/
+ -Open your browser and visit:
+   http://localhost/(your-folder-name)/
 
 # 😅 What I Learned (the hard way)
 
--> SQL constraints are very real and will humble you
+ -> SQL constraints are very real and will humble you
 
--> Preventing duplicate bookings needs actual logic, not vibes
+ -> Preventing duplicate bookings needs actual logic, not vibes
 
--> "Undefined index: seat_number" at midnight = character development
+ -> "Undefined index: seat_number" at midnight = character development
 
--> Booking once is hard, preventing twice is harder 😂
+ -> Booking once is hard, preventing twice is harder 😂
 
 # 📸 Screenshots
 
